@@ -1,0 +1,27 @@
+# EditorConfig configurações para manter consistência em diferentes editores e IDEs.
+root = true
+
+# Configuração padrão para todos os arquivos.
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Configuração específica para arquivos .json
+[*.json]
+indent_size = 2
+
+# Configuração específica para arquivos .js, .ts e .jsx
+[*.{js,ts,jsx,tsx}]
+indent_size = 2
+
+# Configuração específica para arquivos .html
+[*.html]
+indent_size = 2
+
+# Configuração para arquivos .scss
+[*.scss]
+indent_size = 2
