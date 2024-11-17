@@ -1,0 +1,25 @@
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+  padding: 20px;
+}
+
+.about h1 {
+  font-size: 3em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o texto adicional */
+.about span {
+  font-size: 1.5em;
+  color: #555;
+  text-align: center;
+  max-width: 600px;
+}
