@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.errorCode {
+  font-size: 8rem;
+  color: #ff6f61;
+  margin: 0;
+}
+
+.message {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 20px 0;
+}
+.homeLink:hover {
+  background-color: #0056b3;
+}
