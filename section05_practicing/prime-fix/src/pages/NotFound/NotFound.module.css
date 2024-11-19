@@ -18,6 +18,16 @@
   color: #333;
   margin: 20px 0;
 }
-.homeLink:hover {
-  background-color: #0056b3;
+
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 24px;
+  background-color: #116feb;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
 }
