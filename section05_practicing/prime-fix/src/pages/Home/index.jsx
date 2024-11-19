@@ -25,7 +25,7 @@ const Home = () => {
 
   if (loading) {
     return (
-      <div className={styles.loading}>
+      <div className={"loading"}>
         <h2>Carregando...</h2>
       </div>);
   }
